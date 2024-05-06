@@ -1,0 +1,32 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--main-red);
+    border-bottom: 1px solid var(--main-red);
+    text-decoration: none;
+}
+
+.container a{
+    color: var(--main-red);
+    padding: 0.5rem;
+    display: inline-block;
+    
+    padding: 1em;
+}
+
+.container a:hover{
+    background: var(--main-red);
+    color: white;
+    border-radius: 2px;
+}
+
+nav ul{
+    list-style: none;
+    margin: 0;
+}
+
+nav ul li a{
+    padding: 1em;
+    display: inline-block;
+}
