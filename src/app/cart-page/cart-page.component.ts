@@ -12,10 +12,7 @@ import { FoodService } from '../services/food/food.service';
 export class CartPageComponent implements OnInit {
   cart!:Cart;
 
-  constructor(private cartService: CartService, ) { 
-    cartService.addToCart(foods[1]);
-    cartService.addToCart(foods[3]);
-    cartService.addToCart(foods[5]);
+  constructor(private cartService: CartService, ) {
     this.setCart();
   }
 
